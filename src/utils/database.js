@@ -120,8 +120,24 @@ const teams = [
       },
 ];
   
-  
-  
+const footer = {
+  subtitle: "We create digital experiences for brands and companies by using technology.",
+  about_us_links: [
+    { title: "Home" },
+    { title: "Features" },
+    { title: "About" },
+  ],
+  feature_links: [
+    { title: "How it works" },
+    { title: "Privacy policy" },
+    { title: "Terms of Service" },
+    { title: "Refund policy" },
+  ],
+  latest_blogs: [
+    { title: "I think really important to design with...", image: "/assets/images/blog/blog-footer-01.jpg" },
+    { title: "Recognizing the need is the primary...", image: "/assets/images/blog/blog-footer-02.jpg" },
+  ],
+};
 
-export { faqs, features, properties, teams };
-  
+export { faqs, features, footer, properties, teams };
+
